@@ -1,0 +1,349 @@
+<!DOCTYPE html>    
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>Tribute Page</title>  
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <section class="header">
+<div class="text-box">
+    <h1>CHARLIE CHAPLIN</h1>
+    <h4>1889-1977</h4>
+    <pre>
+    <p>Perfect love is the most beautiful of all frustrations <br> because it is more than one can express.</p></pre>
+<h6>- From Chaplin’s My Autobiography</h6>
+
+</div>
+    </section>
+
+<!------ABOUT------->
+
+<section class="about">
+
+        <div class="main">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="C:\Users\mansi malani\OneDrive\Desktop\OIBSIP_tribute-master\OIBSIP_tribute-master\teenage.jpg" style=" background-size: cover; height: 50vh;" src="charlie_kid.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="C:\Users\mansi malani\OneDrive\Desktop\OIBSIP_tribute-master\OIBSIP_tribute-master\teenage.jpg" style=" background-size: cover; height: 50vh;" src="teenage.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="C:\Users\mansi malani\OneDrive\Desktop\OIBSIP_tribute-master\OIBSIP_tribute-master\adult.jpg" style=" background-size: cover; height: 50vh;" src="adult.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="C:\Users\mansi malani\OneDrive\Desktop\OIBSIP_tribute-master\OIBSIP_tribute-master\teenage.jpg" style=" background-size: cover; height: 50vh;" src="old.jpg" alt="Second slide">
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+        <div class="about-info">
+                  <h1>About</h1>
+                  <p>Sir Charles Spencer Chaplin (16 April 1889 – 25 December 1977) was an English comic actor, filmmaker, and composer who rose to fame in the era of silent film. 
+                      He became a worldwide icon through his screen persona, the Tramp, and is considered one of the film industry's most important figures. 
+                      His career spanned more than 75 years, from childhood in the Victorian era until a year before his death in 1977.
+                  <br> Chaplin wrote, directed, produced, edited, starred in, and composed the music for most of his films. 
+                  His films are characterised by slapstick combined with pathos, typified in the Tramp's struggles against adversity. 
+                  Many contain social and political themes, as well as autobiographical elements. He received an Honorary Academy Award for "the incalculable effect he has had in making motion pictures the art form of this century" 
+                  in 1972, as part of a renewed appreciation for his work. </p>
+    </div>
+
+    </div>
+</section>
+<br>
+<template>
+    <div>
+      <b-form-rating v-model="value"></b-form-rating>
+      <p class="mt-2">Value: {{ value }}</p>
+    </div>
+  </template>
+  
+  <script>
+    export default {
+      data() {
+        return {
+          value: null
+        }
+      }
+    }
+  </script>
+  <section class="books">
+  
+  <h1 align="center">BOOKS</h3>
+
+  <div class="wrapper">
+      <div class="card">
+          <img src="book1.jpg">
+          <div class="info">
+              <h1>Book1</h1>
+              <a href="https://amzn.in/d/07RvD3Wx">Buy Now</a>
+                  <div class="rating"> 
+                      <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+                      <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+                      <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+                      <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+                      <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                  </div>
+          </div>
+      </div>
+    
+
+      <div class="card">
+          <img src="book2.jpg">
+          <div class="info">
+              <h1>Book2</h1>
+              <a href="https://amzn.in/d/0gPDlCR6">Buy Now</a>
+              <div class="rating"> 
+                  <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+                  <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+                  <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+                  <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+                  <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+              </div>
+          </div>
+      </div>
+
+      <div class="card">
+          <img src="book3.jpg">
+          <div class="info">
+              <h1>Book3</h1>
+              <a href="https://amzn.in/d/05ZrfIxI">Buy Now</a>
+              <div class="rating"> 
+                  <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+                  <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+                  <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+                  <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+                  <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+              </div>
+          </div>
+      </div>
+  </div>
+<pre>
+
+
+
+</pre>
+<!-------new------->
+
+<div class="wrapper">
+  <div class="card">
+      <img src="book4.jpg">
+      <div class="info">
+          <h1>Book4</h1>
+          <a href="https://amzn.in/d/07RvD3Wx">Buy Now</a>
+          <div class="rating"> 
+              <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+              <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+              <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+              <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+              <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+          </div>
+      </div>
+  </div>
+
+  <div class="card">
+      <img src="book5.jpg">
+      <div class="info">
+          <h1>Book5</h1>
+          <a href="https://amzn.in/d/07RvD3Wx">Buy Now</a>
+          <div class="rating"> 
+              <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+              <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+              <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+              <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+              <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+          </div>
+      </div>
+  </div>
+
+  <div class="card">
+      <img src="book6.jpg">
+      <div class="info">
+          <h1>Book6</h1>
+          <a href="https://amzn.in/d/07RvD3Wx">Buy Now</a>
+          <div class="rating" style="margin-bottom: 10px;"> 
+              <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+              <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+              <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+              <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+              <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+
+<!---------works------------->
+<section class="Movies">
+
+
+
+   <h1 align="center" >MOVIES</h1>
+
+    <div class="wrapper">
+        <div class="card">
+            <img src="gold.jpg">
+            <div class="info">
+                <h1>Gold Rush</h1>
+                <p>A 1925 American silent comedy film written, produced, and directed by Charlie Chaplin. The Gold Rush was critically acclaimed upon its release, and continues to be one of Chaplin's most celebrated works.</p>
+                    <div class="rating"> 
+                        <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+                        <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+                        <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+                        <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+                        <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                    </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="modern.jpg">
+            <div class="info">
+                <h1>Modern Times</h1>
+                <p>1936 American part-talkie satirical romantic black comedy film written and directed by Charlie Chaplin in which his iconic Little Tramp character, his last performance as the character, struggles to survive in the modern, industrialized world. </p>
+                <div class="rating"> 
+                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="city.jpg">
+            <div class="info">
+                <h1>City Lights</h1>
+                <p>A 1931 American silent romantic comedy-drama film written, produced, directed by, and starring Charlie Chaplin. The story follows the misadventures of Chaplin's Tramp as he falls in love with a blind girl and develops a turbulent friendship with an alcoholic millionaire.</p>
+                <div class="rating"> 
+                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                </div>
+            </div>
+        </div>
+    </div>
+<pre>
+
+
+
+</pre>
+<!-------new------->
+
+<div class="wrapper">
+    <div class="card">
+        <img src="great.jpg">
+        <div class="info">
+            <h1>The Great Dictator</h1>
+            <p>1940 American anti-war political satire black comedy film written, directed, produced, scored by, and starring British comedian Charlie Chaplin.Chaplin's film advanced a stirring condemnation of Adolf Hitler, Benito Mussolini, fascism, antisemitism, and the Nazis. </p>
+            <div class="rating"> 
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="kid.jpg">
+        <div class="info">
+            <h1>The Kid</h1>
+            <p>1921 American silent comedy-drama film written, produced, directed by and starring Charlie Chaplin, and features Jackie Coogan as his foundling baby, adopted son and sidekick. This was Chaplin's first full-length film as a director. It was a huge success and was the second-highest-grossing film in 1921.</p>
+            <div class="rating"> 
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="circus.jpg">
+        <div class="info">
+            <h1>The Circus</h1>
+            <p>1928 silent film written, produced, and directed by Charlie Chaplin.The ringmaster of an impoverished circus hires Chaplin's Little Tramp as a clown, but discovers that he can only be funny unintentionally.</p>
+            <div class="rating" style="margin-bottom: 10px;"> 
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+
+
+<h2 align="center">Rating for the Movies</h2>
+<div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar bg-success" style="width: 25%">25%</div>
+  </div>
+  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+  </div>
+  <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+  </div>
+  <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+  </div>
+
+<pre>
+
+
+
+</pre>
+
+<!----footer----->
+<section class="footer">
+    <h4>Made by Mansi</h4>
+</section>
+
+
+
+
+
+</body>
+</html>
